@@ -33,6 +33,14 @@
   color:#607D8B;
 }
 
+button.delete {
+  position: relative;
+  left: 194px;
+  top: -32px;
+  background-color: gray !important;
+  color: white;
+}
+
 .heroes .badge {
   display: inline-block;
   font-size: small;
