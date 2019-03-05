@@ -6,6 +6,16 @@
   </a>
 </li>
 </ul>
+<div>
+    <p style="font-family: 'Courier New', Courier, monospace; color: blueviolet"> Add a new Hero</p>
+  <label> Hero name:
+    <input #heroName />
+  </label>
+  <button (click)="add(heroName.value); heroName.value=''">
+    Add
+  </button>
+</div>
+
 
 
 
